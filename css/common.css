@@ -53,18 +53,19 @@ body {
 }
 #route_navi {
 	position: absolute;
-	border: 1px solid #666; padding: 6px; line-height: 1.4; overflow:scroll;
-	background-color: rgba( 255, 255, 255, 0.9 );
+	top: 30px; left: 0px; width: 100px; height: 32px;
+	border: 1px solid #666; padding: 6px; line-height: 1.4;;
+	background-color: rgba( 255, 255, 255, 0.8 );
 }
 #route_navi_open {
 	position: absolute;
 	top: 30px; left: 0px; width: 14px; height: 16px;
 	border: 1px solid #666; padding: 6px; line-height: 1.4; overflow:hidden;
-	background-color: rgba( 255, 255, 255, 0.9 );
+	background-color: rgba( 255, 255, 255, 0.8 );
 }
 a { color: blue; }
 #side_bar {
-	position: absolute; top: 80px; right: 6px; width: 140px; height: 60%;
+	position: absolute; top: 34px; right: 6px; width: 140px; height: 300px;
 	border: 1px solid #666; padding: 6px; line-height: 1.4; overflow:scroll;
 	background-color: rgba( 255, 255, 255, 0.7 );
 }
@@ -110,6 +111,7 @@ a.suggest_onoff {
 .gm-style-iw {
 	min-width:160px !important;
 }
+/* 20170630 廃止
 @media only screen and (max-width: 359px) {
 	#travelModeSelect { display: none; }
 }
@@ -139,3 +141,4 @@ a.suggest_onoff {
 		font-size: 14px;
 	}
 }
+*/
